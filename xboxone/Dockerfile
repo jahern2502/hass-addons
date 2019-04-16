@@ -6,7 +6,7 @@ ENV LANG C.UTF-8
 # Copy data for add-on
 COPY run.sh /
 COPY xboxone.py /
-#RUN chmod 755 /run.sh
+RUN chmod a+x /run.sh
 
 RUN apk add --no-cache jq gcc musl-dev python3-dev libffi-dev openssl-dev python3 && \
     pip3 install --upgrade pip setuptools && \
