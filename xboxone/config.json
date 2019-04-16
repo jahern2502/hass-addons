@@ -1,6 +1,6 @@
 {
   "name": "Xbox One (Fork)",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "slug": "xboxone",
   "description": "Control your Xbox One from your Home Assistant device (Fork from https://github.com/hunterjm/hassio-addons) Xbox-Smartglass-Rest version 0.9.6",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
